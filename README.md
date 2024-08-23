@@ -1,5 +1,5 @@
 # SQL_coding_test
-SQL 코딩테스트와 관련된 학습을 정리한 공간입니다.
+SQL 코딩 테스트와 관련된 학습을 정리한 공간입니다.
 
 ## 🕊️ Programmers
 Programmers에서 제공하는 코딩 테스트 문제를 풀이한 공간입니다. ([링크](https://school.programmers.co.kr/learn/challenges?order=recent&languages=mysql%2Coracle)) <br>
