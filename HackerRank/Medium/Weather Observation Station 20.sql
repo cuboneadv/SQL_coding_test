@@ -1,0 +1,10 @@
+SELECT ROUND(LAT_N, 4)
+FROM (
+    SELECT LAT_N, ROW_NUMBER() OVER () AS row_num
+    FROM STATION
+    ORDER BY LAT_N
+) AS numbered
+WHERE row_num = (
+    SELECT FLOOR(COUNT(*)/2) + 1
+    FROM STATION
+);
