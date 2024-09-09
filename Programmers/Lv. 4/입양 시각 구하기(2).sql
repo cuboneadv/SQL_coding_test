@@ -1,0 +1,16 @@
+# SET을 이용한 풀이
+SET @HOUR = -1;
+
+SELECT 
+    @HOUR := @HOUR + 1 AS HOUR,
+    (
+        SELECT COUNT(*)
+        FROM ANIMAL_OUTS
+        WHERE @HOUR = HOUR(DATETIME)
+    ) AS COUNT
+FROM 
+    ANIMAL_OUTS
+WHERE 
+    @HOUR < 23
+ORDER BY 
+    HOUR;
