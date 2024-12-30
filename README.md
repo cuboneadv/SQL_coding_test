@@ -2,8 +2,9 @@
 SQL 코딩 테스트와 관련된 학습을 정리한 공간입니다.
 
 ## 🔧 파일 업로드 자동화
-기존 MySQL Workbench를 통해 쿼리 작성 및 다운로드 후 수동으로 업로드하 과정을 Python으로 자동화하습니다. <br>
 자세한 내용은 **sql_auto_upload.ipynb** 파일을 참고해 주세요.
+- 기존: MySQL Workbench를 통해 쿼리 작성 및 다운로드 후 수동으로 업로드 <br>
+- 현재: Python으로 자동화 <br>
 
 ## 🕊️ Programmers
 Programmers에서 제공하는 코딩 테스트 문제를 풀이한 공간입니다. ([링크](https://school.programmers.co.kr/learn/challenges?order=recent&languages=mysql%2Coracle)) <br>
