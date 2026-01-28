@@ -5,7 +5,6 @@ WITH CTE1 AS (
     GROUP BY managerId
     HAVING COUNT(*) >= 5
 )
-
 SELECT name
 FROM Employee
 WHERE id IN (SELECT managerId FROM CTE1);
